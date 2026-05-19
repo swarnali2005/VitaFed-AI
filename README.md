@@ -74,29 +74,31 @@
 
 ---
 
-## 🏗️ Project Structure
+## 📂 Project Structure
+
+```plaintext
 VitaFed-AI/
 │
 ├── data/
 │   └── heart_data.py              # Data loading and client splitting
 │
 ├── clients/
-│   ├── client1.py                # Federated client 1 training
-│   ├── client2.py                # Federated client 2 training
-│   └── client3.py                # Federated client 3 training
+│   ├── client1.py                 # Federated client 1 training
+│   ├── client2.py                 # Federated client 2 training
+│   └── client3.py                 # Federated client 3 training
 │
 ├── models/
-│   ├── global_model.py           # Neural network architecture
-│   └── aggregator.py             # FedAvg aggregation algorithm
+│   ├── global_model.py            # Neural network architecture
+│   └── aggregator.py              # FedAvg aggregation algorithm
 │
 ├── explainability/
-│   ├── shap_explain.py           # SHAP explanations
-│   └── lime_explain.py           # LIME explanations
+│   ├── shap_explain.py            # SHAP explanations
+│   └── lime_explain.py            # LIME explanations
 │
 ├── dashboard/
-│   ├── app.py                    # Flask dashboard backend
+│   ├── app.py                     # Flask dashboard backend
 │   └── templates/
-│       └── index.html            # Dashboard frontend UI
+│       └── index.html             # Dashboard frontend UI
 │
 ├── results/
 │   ├── training_results.json
@@ -110,9 +112,10 @@ VitaFed-AI/
 ├── screenshots/
 │   └── dashboard_screenshot.png
 │
-├── main.py                       # Main federated training pipeline
+├── main.py                        # Main federated training pipeline
 │
-└── requirements.txt             # Project dependencies
+└── requirements.txt               # Project dependencies
+```
 ---
 
 ## 🧠 Model Architecture
