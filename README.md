@@ -1,5 +1,5 @@
 # 🫀 VitaFed AI
-
+🌐 *Live Dashboard:* [https://vitafed-ai.onrender.com](https://vitafed-ai.onrender.com)
 > **Explainable Privacy-Preserving Federated Learning Framework for Heart Disease Prediction**
 
 
@@ -78,30 +78,30 @@
 VitaFed-AI/
 │
 ├── data/
-│   └── heart_data.py          # Data loading and client splitting
+│   └── heart_data.py               # Data loading and client splitting
 │
 ├── clients/
-│   ├── client1.py             # Federated client 1 training
-│   ├── client2.py             # Federated client 2 training
-│   └── client3.py             # Federated client 3 training
+│   ├── client1.py                  # Federated client 1 training
+│   ├── client2.py                  # Federated client 2 training
+│   └── client3.py                  # Federated client 3 training
 │
 ├── models/
-│   ├── global_model.py        # Neural network architecture
-│   └── aggregator.py          # FedAvg aggregation algorithm
+│   ├── global_model.py             # Neural network architecture
+│   └── aggregator.py               # FedAvg aggregation algorithm
 │
 ├── explainability/
-│   ├── shap_explain.py        # SHAP explanations
-│   └── lime_explain.py        # LIME explanations
+│   ├── shap_explain.py             # SHAP explanations
+│   └── lime_explain.py             # LIME explanations
 │
 ├── dashboard/
-│   ├── app.py                 # Flask dashboard
+│   ├── app.py                      # Flask dashboard
 │   └── templates/
-│       └── index.html         # Dashboard UI
+│       └── index.html              # Dashboard UI
 │
-├── results/                   # Generated plots and model
-├── screenshots/               # Dashboard screenshots
-├── main.py                    # Main training pipeline
-└── requirements.txt
+├── results/                        # Generated plots and model
+├── screenshots/                    # Dashboard screenshots
+├── main.py                         # Main training pipeline
+└── requirements.txt                # Project dependencies
 ---
 
 ## 🧠 Model Architecture
